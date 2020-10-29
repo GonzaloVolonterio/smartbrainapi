@@ -129,8 +129,8 @@ app.put('/imageUrl', (req, res) => {image.handleApiCall(req, res, db)}}
 
 
 //COMPRAR QUE FUNCIONA
-app.listen(3001, () => {
-console.log('app is running on port 3001');	
+app.listen(process.env.PORT || 3001, () => {
+console.log('app is running on port ${process.env.PORT} ');	
 })
 
 /*
