@@ -59,7 +59,7 @@ app.use(cors())
 
 //COMPROBAR QUE FUNCIONA ENVINADO A POSNET
 app.get('/', (req, res) => {
-res.send(database.users);	
+res.send('it is working');	
 })
 
 
