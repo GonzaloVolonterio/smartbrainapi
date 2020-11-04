@@ -60,7 +60,7 @@ app.use(cors())
 //res.send('it is working');	
 //})
 
-app.get('/', (req, res)=> { res.send(db.users) })
+app.get('/', (req, res) => { res.send('it is working') })
 
 
 
